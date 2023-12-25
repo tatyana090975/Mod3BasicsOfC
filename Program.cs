@@ -10,8 +10,10 @@ namespace Mod3BasicsOfC
     {
         static void Main(string[] args)
         {
-            double MyAge = 48.5;
-            Console.WriteLine($"Мой возраст {MyAge} age");
+            double Age = 48.5;
+            string Name = "Татьяна";
+            string FavColor = "orange";
+            Console.WriteLine("{0}\n  {1}\n {2}", Name, Age, FavColor);
             Console.ReadKey();
         }
     }
