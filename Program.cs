@@ -8,14 +8,10 @@ namespace Mod3BasicsOfC
 {
     internal class Program
     {
-        public enum Semafore : int
-        {
-            Red = 100, Yellow = 200, Green = 300
-        }
         static void Main(string[] args)
         {
-            var Day = (Semafore)200;
-            Console.WriteLine(Day.ToString());
+            double MyAge = 48.5;
+            Console.WriteLine($"Мой возраст {MyAge} age");
             Console.ReadKey();
         }
     }
