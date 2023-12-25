@@ -8,13 +8,13 @@ namespace Mod3BasicsOfC
 {
     internal class Program
     {
-        public enum DaysOfWeek : int
+        public enum Semafore : int
         {
-            Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday
+            Red = 100, Yellow = 200, Green = 300
         }
         static void Main(string[] args)
         {
-            var Day = (DaysOfWeek)4;
+            var Day = (Semafore)200;
             Console.WriteLine(Day.ToString());
             Console.ReadKey();
         }
