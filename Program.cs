@@ -15,6 +15,7 @@ namespace Mod3BasicsOfC
             Console.WriteLine(MyName);
             MyName = "Alan";
             Console.WriteLine(MyName);
+            Console.WriteLine("Jane\n\tПривет мир\n\tМне 27 лет\n\tMy name is\n Jane");
             Console.ReadKey();
         }
     }
