@@ -10,8 +10,8 @@ namespace Mod3BasicsOfC
     {
         static void Main(string[] args)
         {
-            string str = Console.ReadLine();
-            Console.WriteLine(str);
+            double result = 10 % 3;
+            Console.WriteLine(result);
             Console.ReadKey();
         }
     }
