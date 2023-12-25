@@ -8,13 +8,14 @@ namespace Mod3BasicsOfC
 {
     internal class Program
     {
+        public enum DaysOfWeek : int
+        {
+            Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday
+        }
         static void Main(string[] args)
         {
-            const string MyName = "Татьяна";
-            double MyAge = 48.5;
-            bool MyPet = true;
-            int MyFoot = 39;
-            Console.WriteLine("Меня зовут {0}\nМне {1} лет\nЕсть ли у меня питомец? {2}\nУ меня {3} размер ноги", MyName, MyAge, MyPet, MyFoot);
+            var Day = (DaysOfWeek)4;
+            Console.WriteLine(Day.ToString());
             Console.ReadKey();
         }
     }
