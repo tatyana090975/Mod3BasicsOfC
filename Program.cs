@@ -13,6 +13,8 @@ namespace Mod3BasicsOfC
             string MyName;
             MyName = "Jane";
             Console.WriteLine(MyName);
+            MyName = "Alan";
+            Console.WriteLine(MyName);
             Console.ReadKey();
         }
     }
