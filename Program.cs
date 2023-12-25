@@ -10,14 +10,11 @@ namespace Mod3BasicsOfC
     {
         static void Main(string[] args)
         {
-            string MyName;
-            MyName = "Jane";
-            Console.WriteLine(MyName);
-            MyName = "Alan";
-            Console.WriteLine(MyName);
-            Console.WriteLine("Jane\n\tПривет мир\n\tМне 27 лет\n\tMy name is\n Jane");
-            Console.WriteLine('\u0040');
-            Console.WriteLine('\x23');
+            const string MyName = "Татьяна";
+            double MyAge = 48.5;
+            bool MyPet = true;
+            int MyFoot = 39;
+            Console.WriteLine("Меня зовут {0}\nМне {1} лет\nЕсть ли у меня питомец? {2}\nУ меня {3} размер ноги", MyName, MyAge, MyPet, MyFoot);
             Console.ReadKey();
         }
     }
