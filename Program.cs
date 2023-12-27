@@ -10,17 +10,19 @@ namespace Mod3BasicsOfC
     {
         static void Main(string[] args)
         {
-            Console.Write("What's your name? ");
+            Console.Write("Введите имя: ");
             var name = Console.ReadLine();
 
-            Console.Write("How old are you? ");
-            var age = checked((byte)int.Parse(Console.ReadLine()));
-            Console.WriteLine("Your name is {0} and age is {1} ", name, age);
+            Console.Write("Введите возраст: ");
+            var age = Convert.ToInt32(Console.ReadLine());
 
-            Console.Write("What is your favorite day of week? ");
+            Console.WriteLine("Ваше имя {0} и вам {1} лет.", name, age);
 
-            var day = (DayOfWeek)int.Parse(Console.ReadLine());
-            Console.WriteLine("Your favorite day is {0}", day);
+            Console.Write("Введите день рождения: ");
+            var birthdate = Console.ReadLine();
+
+            Console.Write($"Ваш день рождения {birthdate}");
+
             Console.ReadKey();
         }
     }
